@@ -1,0 +1,61 @@
+p{
+    font-family: Roboto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+body{
+    padding-bottom: 400px;
+    margin-top: 65px;
+    margin-left: 75px;
+}
+
+.vidio-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 20px;
+}
+
+.vidio-thumnail{
+    width: 100%;
+}
+.thumbnial-row{
+    position: relative;
+    margin-bottom: 10px;
+}
+.time-vidio{
+    position: absolute;
+    background-color: black;
+    color: white;
+    bottom: 10px;
+    right: 5px;
+    font-family: Roboto;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 5px;
+    border-radius: 2px;
+}
+.info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.profile-picture{
+    width: 40px;
+    border-radius: 40px;
+}
+.vidio-title{
+font-size: 18px;
+font-weight: 600px;
+}
+.vidio-auther{
+    font-size: 14px;
+    margin-top: 12px;
+    color: rgb(66, 66, 66);
+}
+.vidio-stats{
+    font-size: 14px;
+    margin-top: 3px;
+    color: rgb(66, 66, 66);
+}

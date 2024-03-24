@@ -1,0 +1,63 @@
+.subcribe{
+    background-color: red;
+    border: none;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    color: white;
+    border-radius: 2px;
+    margin:8px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    
+}
+.subcribe:hover{
+    opacity: 0.7;
+}
+.subcribe:active{
+    opacity: 0.4;
+}
+.join{
+    background-color: white;
+    border: 2px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: lightblue;
+    border-radius: 2px;
+    margin:8px;
+    cursor: pointer;  
+    border-style: solid;
+    transition: background-color ,color 0.50s;
+}
+.join:hover{
+    background-color: lightblue;
+    color: white;
+}
+.join:active{
+    opacity: 0.7;
+}
+.tweet{
+    background-color: rgb(46, 108, 240);
+    border: none;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border-radius: 18px;
+    margin:8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px; 
+    transition: box-shadow 1s; 
+}
+.tweet:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+.tweet:active{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
+}
